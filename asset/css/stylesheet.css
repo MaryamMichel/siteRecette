@@ -1,0 +1,42 @@
+.nav-item a {
+    color: #C69C6D;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: #F4EBD7;
+}
+
+main{
+    margin-top: 4rem;
+}
+
+.intro1{
+    display: flex;
+}
+
+.introTxt{
+    background-color: #DDD6C5;
+    text-align: left;
+    direction: ltr;
+    padding: 20px;
+}
+
+main p {
+    font-size: larger;
+    font-weight: 450;
+}
+
+section {
+    padding-top: 4rem;
+    width: 100%;
+}
+
+
+
+.intro2{
+    background-image: url(/asset/photos/introPic2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50rem;
+}
