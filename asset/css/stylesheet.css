@@ -55,7 +55,45 @@ footer{
     width: 100%;
 }
 
-@media  screen and (max-width: 992px) {
-    
-    
+@media  screen and (max-width: 768px) {
+    .nav-item a{
+        display: none;
+    }
+    #navMobile{
+        display: flex;
+        /* flex-direction: row; */
+        /* justify-content: space-between; */
+       
+    }
+} 
+
+@media  screen and (min-width: 992px) {
+    #menu{
+        display: none;
+    }
+   
 }
+
+/* 
+
+@media  screen and (min-width: 992px) {
+    #navMobil{
+        display: none;
+    }
+} */
+/* <div id="navMobil">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+  <img src="asset/photos/logo.png" alt="logo" height="90" />
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon custom-color"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        <a class="nav-link" href="recettes.html">Features</a>
+      </div>
+    </div>
+  </div>
+</nav>
+</div> */

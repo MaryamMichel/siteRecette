@@ -12,26 +12,26 @@
     <title>Recipes</title>
   </head>
   <body>
+       
     <nav class="navbar d-flex">
-      <div class="container-fluid">
+      <div id="navMobile" class="container-fluid ">
         <img src="asset/photos/logo.png" alt="logo" height="90" />
 
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-6">
+        
+          <div class="row justify-content-center ">
+            <div id="searchBar" class="col-md-8">
               <div class="input-group">
-                <div class="input-group-text">
+                <div class="input-group-text ">
                   <i class="bi bi-search"></i>
                 </div>
                 <input
                   type="text"
-                  class="form-control"
+                  class="form-control px-5"
                   aria-label="Text input with radio button"
                 />
               </div>
             </div>
           </div>
-        </div>
 
         <ul class="nav">
           <li class="nav-item">
@@ -48,6 +48,20 @@
             >
           </li>
         </ul>
+      <!-- here -->
+       <div id="menu">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon custom-color"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          <a class="nav-link" href="recettes.html">Recipes</a>
+        </div>
+      </div>
+    </div>
+
+
       </div>
     </nav>
     <main class="container pb-5">
