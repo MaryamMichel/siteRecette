@@ -8,6 +8,7 @@
 }
 
 
+
 .intro1{
     display: flex;
 }
@@ -63,7 +64,26 @@ footer{
         display: flex;
         /* flex-direction: row; */
         /* justify-content: space-between; */
-       
+    }
+    #introPic{
+        background-image: url(/asset/photos/introPic1.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 25rem;
+        
+        /* <img src="asset/photos/introPic1.PNG" alt="introPictur1" /> */
+    }
+    .intro1{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro2{
+        height:30rem;
+        
+    }
+    .bi.bi-chevron-compact-right{
+        
+        display: none;
     }
 } 
 
