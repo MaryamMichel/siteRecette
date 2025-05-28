@@ -7,9 +7,6 @@
     background-color: #F4EBD7;
 }
 
-main{
-    margin-top: 4rem;
-}
 
 .intro1{
     display: flex;
@@ -19,7 +16,7 @@ main{
     background-color: #DDD6C5;
     text-align: left;
     direction: ltr;
-    padding: 20px;
+    padding: 40px;
 }
 
 main p {
@@ -32,11 +29,33 @@ section {
     width: 100%;
 }
 
+.custom-color {
+    color: #c69c6d; 
+  }
 
+.custom-bg{
+    background-color: #DDD6C5;
+}
 
 .intro2{
     background-image: url(/asset/photos/introPic2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50rem;
+    height: 40rem;
+    
+}
+
+footer{
+    background-color: #F4EBD7;
+    padding: 3rem;
+}
+
+
+.recipe{
+    width: 100%;
+}
+
+@media  screen and (max-width: 992px) {
+    
+    
 }
