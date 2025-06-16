@@ -58,13 +58,6 @@ footer{
 
 }
 
-<<<<<<< HEAD
-/* .Recipe{
-    object-fit: ;
-} */
-
-@media  screen and (max-width: 768px) {
-=======
 .Recipe{
     object-fit: cover;
 }
@@ -76,7 +69,6 @@ footer{
 } */
 
 @media  screen and (max-width: 992px) {
->>>>>>> 3408e41814ded52943ebe3cb7320dad8dcf30311
     .nav-item a{
         display: none;
     }
