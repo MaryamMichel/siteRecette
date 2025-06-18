@@ -8,8 +8,10 @@
 }
 
 
+
 .intro1{
     display: flex;
+    
 }
 
 .introTxt{
@@ -53,9 +55,119 @@ footer{
 
 .recipe{
     width: 100%;
+
+}
+
+.Recipe{
+    object-fit: cover;
+}
+/* @media  screen and (max-width: 1200px) {
+    .intro1{
+        display: flex;
+        flex-direction: column;
+    }
+} */
+
+@media screen and (max-width: 1400px) {
+    .intro1{
+        display: flex;
+        flex-direction: column;
+    }
+   
 }
 
 @media  screen and (max-width: 992px) {
-    
-    
+    .nav-item a{
+        display: none;
+    }
+    #navMobile{
+        display: grid;
+        grid-template-columns: 3fr 9fr 1fr;
+        grid-template-rows: 2fr 1fr;
+        /* flex-direction: row; */
+        /* justify-content: space-between; */
+    }
+    #introPic{
+        background-image: url(/asset/photos/introPic1.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 25rem;
+        
+        /* <img src="asset/photos/introPic1.PNG" alt="introPictur1" /> */
+    }
+    .intro1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main{
+        padding: none;
+    }
+    .introTxt{
+        width: 44.4rem;
+    }
+    .intro2{
+        height:30rem;
+        
+    }
+    .bi.bi-chevron-compact-right{
+        display: none;
+    }
+
+    .logo{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #searchBar{
+        grid-column: 2;
+        grid-row: 2;
+        grid-column: span 8;
+    }
+
+    #menu{
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    #cardsMobil {
+        /* display: grid; */
+        flex-direction: column-reverse;
+        /* grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr; */
+    } 
+    .Recipe{
+        max-height: 80%;
+    }
+} 
+
+@media  screen and (min-width: 992px) {
+    #menu{
+        display: none;
+    }
+   
 }
+
+/* 
+
+@media  screen and (min-width: 992px) {
+    #navMobil{
+        display: none;
+    }
+} */
+/* <div id="navMobil">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+  <img src="asset/photos/logo.png" alt="logo" height="90" />
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon custom-color"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        <a class="nav-link" href="recettes.html">Features</a>
+      </div>
+    </div>
+  </div>
+</nav>
+</div> */
