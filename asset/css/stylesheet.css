@@ -88,7 +88,7 @@ footer{
         /* justify-content: space-between; */
     }
     #introPic{
-        background-image: url(/asset/photos/introPic1.PNG);
+        background-image: url(./asset/photos/introPic1.PNG);
         background-size: cover;
         background-repeat: no-repeat;
         height: 25rem;
